@@ -1,0 +1,16 @@
+﻿<Window x:Class="BookStoreExp.ThirdWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreExp"
+        mc:Ignorable="d"
+        Title="ThirdWindow" Height="370.761" Width="517.283">
+    <Grid Margin="0,0,4.2,2.8">
+        <ListBox x:Name="listbox1" HorizontalAlignment="Left" Height="281" Margin="10,21,0,0" VerticalAlignment="Top" Width="226" />
+        <Button x:Name="addanotherbook" Content="Add Another Book" HorizontalAlignment="Left" Height="35" Margin="299,40,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_2"/>
+        <Button x:Name="del" Content="Delete" HorizontalAlignment="Left" Height="36" Margin="299,141,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_1"/>
+        <Button x:Name="exit" Content="Close" HorizontalAlignment="Left" Height="33" Margin="299,248,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click"/>
+
+    </Grid>
+</Window>
